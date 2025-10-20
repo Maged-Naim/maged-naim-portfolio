@@ -1,394 +1,657 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Maged Naim | DevOps Engineer - CI/CD pipelines, Kubernetes, AWS, Terraform, Infrastructure Automation" />
-    <meta name="keywords" content="DevOps, CI/CD, Kubernetes, AWS, Docker, Jenkins, Terraform, Infrastructure as Code" />
+    <meta
+      name="description"
+      content="Maged Naim | DevOps Engineer - CI/CD pipelines, Kubernetes, AWS, Terraform, Infrastructure Automation"
+    />
+    <meta
+      name="keywords"
+      content="DevOps, CI/CD, Kubernetes, AWS, Docker, Jenkins, Terraform, Infrastructure as Code"
+    />
     <meta name="author" content="Maged Naim" />
     <title>Maged Naim | DevOps Engineer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="style.css">
-  
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo">&lt; MAGED /&gt;</div>
-        <ul class="nav-links">
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-            <li>
-                <button id="theme-toggle" class="theme-toggle">
-                    <i class="fas fa-moon"></i>
-                </button>
-            </li>
-        </ul>
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+      <div class="logo">&lt; MAGED /&gt;</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
 
     <section id="home" class="home">
-        <div class="left">
-            <div class="image-container-home">
-                <img src="maged.png" alt="Maged Naim - DevOps Engineer" class="profile-img" />
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/Maged-Naim" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/maged-naim-247220122/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </div>
+      <div class="left">
+        <div class="image-container-home">
+          <img
+            src="maged.png"
+            alt="Maged Naim - DevOps Engineer"
+            class="profile-img"
+          />
         </div>
+        <div class="social-links">
+          <a href="https://github.com/Maged-Naim" target="_blank" title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/maged-naim-247220122/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
 
-        <div class="right">
-            <h1>Hi, I'm <span>Maged Naim</span></h1>
-            <h3>DevOps Engineer</h3>
-            <p>I build scalable infrastructure, design CI/CD pipelines, and automate cloud deployments. With expertise in Kubernetes, Docker, Terraform, and AWS, I help teams deploy faster and more reliably.</p>
-            <div class="buttons">
-                <a href="cv.pdf" class="btn primary">Download Resume</a>
-                <a href="#contact" class="btn secondary">Get In Touch</a>
-            </div>
+      <div class="right">
+        <h1>Hi, I'm <span>Maged Naim</span></h1>
+        <h3>DevOps Engineer</h3>
+        <p>
+          I build scalable infrastructure, design CI/CD pipelines, and automate
+          cloud deployments. With expertise in Kubernetes, Docker, Terraform,
+          and AWS, I help teams deploy faster and more reliably.
+        </p>
+        <div class="buttons">
+          <a href="cv.pdf" class="btn primary">Download Resume</a>
+          <a href="#contact" class="btn secondary">Get In Touch</a>
         </div>
+      </div>
     </section>
 
     <section id="about" class="about">
-        <div class="text">
-            <h1>About Me</h1>
-            <p>I'm <strong>Maged Naim</strong>, a DevOps Engineer passionate about building robust, automated infrastructure and streamlining deployment processes. My background spans both development and operations, enabling me to understand the full software lifecycle.</p>
-            <p>With hands-on experience in containerization, orchestration, and Infrastructure as Code, I design systems that are scalable, maintainable, and resilient. I've worked with leading companies on NetSuite implementations and have transitioned my expertise to modern DevOps practices.</p>
-            <p>My goal is to eliminate manual processes, reduce deployment friction, and create reliable systems that enable teams to ship with confidence. I'm continuously learning new technologies and best practices in the DevOps ecosystem.</p>
+      <div class="text">
+        <h1>About Me</h1>
+        <p>
+          I'm <strong>Maged Naim</strong>, a DevOps Engineer passionate about
+          building robust, automated infrastructure and streamlining deployment
+          processes. My background spans both development and operations,
+          enabling me to understand the full software lifecycle.
+        </p>
+        <p>
+          With hands-on experience in containerization, orchestration, and
+          Infrastructure as Code, I design systems that are scalable,
+          maintainable, and resilient. I've worked with leading companies on
+          NetSuite implementations and have transitioned my expertise to modern
+          DevOps practices.
+        </p>
+        <p>
+          My goal is to eliminate manual processes, reduce deployment friction,
+          and create reliable systems that enable teams to ship with confidence.
+          I'm continuously learning new technologies and best practices in the
+          DevOps ecosystem.
+        </p>
 
-            <div class="education">
-                <h2>Education & Certifications</h2>
-                <div class="education-item">
-                    <h3>B.Sc. in Computer and Information Science</h3>
-                    <p><strong>Helwan University</strong> (2012 – 2016)</p>
-                    <p><em>Graduation Project:</em> QR-based e-commerce platform with PHP backend and Android app <strong>(Grade: Excellent)</strong></p>
-                </div>
-                <div class="education-item">
-                    <h3>9-Month Diploma, Open Source Application Development</h3>
-                    <p><strong>Information Technology Institute (ITI), Nasr City</strong> (Oct 2019 – Jul 2020)</p>
-                </div>
-                <div class="education-item">
-                    <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
-                    <p><strong>Software Development – DevOps Engineer Track</strong></p>
-                </div>
-            </div>
+        <div class="education">
+          <h2>Education & Certifications</h2>
+          <div class="education-item">
+            <h3>B.Sc. in Computer and Information Science</h3>
+            <p><strong>Helwan University</strong> (2012 – 2016)</p>
+            <p>
+              <em>Graduation Project:</em> QR-based e-commerce platform with PHP
+              backend and Android app <strong>(Grade: Excellent)</strong>
+            </p>
+          </div>
+          <div class="education-item">
+            <h3>9-Month Diploma, Open Source Application Development</h3>
+            <p>
+              <strong>Information Technology Institute (ITI), Nasr City</strong>
+              (Oct 2019 – Jul 2020)
+            </p>
+          </div>
+          <div class="education-item">
+            <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+            <p><strong>Software Development – DevOps Engineer Track</strong></p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="skills" class="section skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill-box">
-                <h3>🐧 Linux & Infrastructure</h3>
-                <ul>
-                    <li>Linux Administration (CentOS, Ubuntu, Amazon Linux)</li>
-                    <li>Bash & Shell Scripting</li>
-                    <li>Networking & Security (SSL/TLS, VPN, Firewalls)</li>
-                    <li>System Performance Tuning</li>
-                    <li>Log Management & Analysis</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>🐳 Containerization & Orchestration</h3>
-                <ul>
-                    <li>Docker (Images, Containers, Registries)</li>
-                    <li>Docker Compose & Multi-container Applications</li>
-                    <li>Kubernetes (Deployments, Services, ConfigMaps)</li>
-                    <li>Helm Charts & Package Management</li>
-                    <li>Container Security & Networking</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>⚙️ CI/CD & Automation</h3>
-                <ul>
-                    <li>Jenkins (Pipeline, Groovy, Plugins)</li>
-                    <li>GitHub Actions & Workflows</li>
-                    <li>GitLab CI/CD</li>
-                    <li>Blue-Green & Canary Deployments</li>
-                    <li>Automated Testing Integration</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>☁️ Cloud & Infrastructure as Code</h3>
-                <ul>
-                    <li>AWS (EC2, S3, RDS, IAM, CloudWatch, ECR, ECS)</li>
-                    <li>Terraform & Infrastructure as Code</li>
-                    <li>Ansible Playbooks & Automation</li>
-                    <li>CloudFormation</li>
-                    <li>Infrastructure Provisioning & Management</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>📊 Monitoring & Observability</h3>
-                <ul>
-                    <li>Prometheus & Grafana</li>
-                    <li>AWS CloudWatch</li>
-                    <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
-                    <li>Application Performance Monitoring (APM)</li>
-                    <li>Alerting & Incident Response</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>🔧 Tools & Versioning</h3>
-                <ul>
-                    <li>Git, GitHub, GitLab, Bitbucket</li>
-                    <li>Python & Bash Scripting</li>
-                    <li>YAML, JSON, XML Configuration</li>
-                    <li>REST APIs & Integration</li>
-                    <li>Nginx & Apache Web Servers</li>
-                </ul>
-            </div>
-
-            <div class="skill-box">
-                <h3>🌐 NetSuite Expertise</h3>
-                <ul>
-                    <li>SuiteScript 2.0 Development</li>
-                    <li>SuiteTalk (REST/SOAP APIs)</li>
-                    <li>SuiteBuilder & Customization</li>
-                    <li>Advanced Integrations</li>
-                    <li>PDF/HTML Template Design</li>
-                </ul>
-            </div>
+      <h2>Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <h3>🐧 Linux & Infrastructure</h3>
+          <ul>
+            <li>Linux Administration (CentOS, Ubuntu, Amazon Linux)</li>
+            <li>Bash & Shell Scripting</li>
+            <li>Networking & Security (SSL/TLS, VPN, Firewalls)</li>
+            <li>System Performance Tuning</li>
+            <li>Log Management & Analysis</li>
+          </ul>
         </div>
+
+        <div class="skill-box">
+          <h3>🐳 Containerization & Orchestration</h3>
+          <ul>
+            <li>Docker (Images, Containers, Registries)</li>
+            <li>Docker Compose & Multi-container Applications</li>
+            <li>Kubernetes (Deployments, Services, ConfigMaps)</li>
+            <li>Helm Charts & Package Management</li>
+            <li>Container Security & Networking</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>⚙️ CI/CD & Automation</h3>
+          <ul>
+            <li>Jenkins (Pipeline, Groovy, Plugins)</li>
+            <li>GitHub Actions & Workflows</li>
+            <li>GitLab CI/CD</li>
+            <li>Blue-Green & Canary Deployments</li>
+            <li>Automated Testing Integration</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>☁️ Cloud & Infrastructure as Code</h3>
+          <ul>
+            <li>AWS (EC2, S3, RDS, IAM, CloudWatch, ECR, ECS)</li>
+            <li>Terraform & Infrastructure as Code</li>
+            <li>Ansible Playbooks & Automation</li>
+            <li>CloudFormation</li>
+            <li>Infrastructure Provisioning & Management</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>📊 Monitoring & Observability</h3>
+          <ul>
+            <li>Prometheus & Grafana</li>
+            <li>AWS CloudWatch</li>
+            <li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+            <li>Application Performance Monitoring (APM)</li>
+            <li>Alerting & Incident Response</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>🔧 Tools & Versioning</h3>
+          <ul>
+            <li>Git, GitHub, GitLab, Bitbucket</li>
+            <li>Python & Bash Scripting</li>
+            <li>YAML, JSON, XML Configuration</li>
+            <li>REST APIs & Integration</li>
+            <li>Nginx & Apache Web Servers</li>
+          </ul>
+        </div>
+
+        <div class="skill-box">
+          <h3>🌐 NetSuite Expertise</h3>
+          <ul>
+            <li>SuiteScript 2.0 Development</li>
+            <li>SuiteTalk (REST/SOAP APIs)</li>
+            <li>SuiteBuilder & Customization</li>
+            <li>Advanced Integrations</li>
+            <li>PDF/HTML Template Design</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="section projects">
-        <h2>Projects & Experience</h2>
-        <p class="intro">Selected projects demonstrating DevOps practices, cloud infrastructure, automation, and system reliability.</p>
+      <h2>Projects & Experience</h2>
+      <p class="intro">
+        Selected projects demonstrating DevOps practices, cloud infrastructure,
+        automation, and system reliability.
+      </p>
 
-        <h3 class="project-section-title">DevOps Projects</h3>
+      <h3 class="project-section-title">DevOps Projects</h3>
 
-        <div class="project-card">
-            <h3>📦 CI/CD Pipeline Automation for Node.js Application</h3>
-            <p><strong>Challenge:</strong> Manual deployments caused inconsistency and downtime. Deployments took 30+ minutes.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Designed Jenkins pipeline with automated build, test, and deploy stages using Groovy scripting</li>
-                <li>Integrated GitHub webhooks for automatic trigger on commit</li>
-                <li>Pushed Docker images to AWS ECR and deployed to EC2 instances</li>
-                <li>Implemented rollback capabilities and deployment notifications</li>
-            </ul>
-            <p><strong>Results:</strong> 85% reduction in deployment time, zero-downtime deployments, 100% automation</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Jenkins</span>
-                <span class="tech-tag">GitHub</span>
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">AWS EC2</span>
-                <span class="tech-tag">Groovy</span>
-            </div>
+      <div class="project-card">
+        <h3>📦 CI/CD Pipeline Automation for Node.js Application</h3>
+        <p>
+          <strong>Challenge:</strong> Manual deployments caused inconsistency
+          and downtime. Deployments took 30+ minutes.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Designed Jenkins pipeline with automated build, test, and deploy
+            stages using Groovy scripting
+          </li>
+          <li>Integrated GitHub webhooks for automatic trigger on commit</li>
+          <li>Pushed Docker images to AWS ECR and deployed to EC2 instances</li>
+          <li>
+            Implemented rollback capabilities and deployment notifications
+          </li>
+        </ul>
+        <p>
+          <strong>Results:</strong> 85% reduction in deployment time,
+          zero-downtime deployments, 100% automation
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Jenkins</span>
+          <span class="tech-tag">GitHub</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">AWS EC2</span>
+          <span class="tech-tag">Groovy</span>
         </div>
-
-        <div class="project-card">
-            <h3>🐳 Containerized E-commerce Platform with Monitoring</h3>
-            <p><strong>Challenge:</strong> Multi-tier application needed scalable deployment with observability.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Built Docker Compose orchestration for Node.js backend, PostgreSQL database, and Nginx reverse proxy</li>
-                <li>Implemented Prometheus metrics collection and Grafana dashboards for real-time monitoring</li>
-                <li>Configured persistent volumes for data durability and network isolation</li>
-                <li>Set up health checks and automatic container restart policies</li>
-            </ul>
-            <p><strong>Results:</strong> Repeatable deployments, 24/7 system visibility, 99.5% uptime</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">Docker Compose</span>
-                <span class="tech-tag">Prometheus</span>
-                <span class="tech-tag">Grafana</span>
-                <span class="tech-tag">Nginx</span>
-            </div>
+        <div class="project-links">
+          <a
+            href="https://github.com/Maged-Naim/nodejs-cicd-pipeline.git"
+            target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
         </div>
+      </div>
 
-        <div class="project-card">
-            <h3>☸️ Kubernetes Microservices Deployment & Scaling</h3>
-            <p><strong>Challenge:</strong> Need to manage multiple microservices with automatic scaling and service discovery.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Deployed microservices on Kubernetes cluster with multiple replicas and pod auto-scaling</li>
-                <li>Configured Ingress Controller for external traffic routing and SSL termination</li>
-                <li>Used ConfigMaps and Secrets for environment-specific configuration management</li>
-                <li>Implemented Horizontal Pod Autoscaler (HPA) for dynamic resource scaling based on CPU usage</li>
-                <li>Set up liveness and readiness probes for application health management</li>
-            </ul>
-            <p><strong>Results:</strong> Automatic scaling based on demand, improved resource utilization, service resilience</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Kubernetes</span>
-                <span class="tech-tag">Docker</span>
-                <span class="tech-tag">Ingress Controller</span>
-                <span class="tech-tag">HPA</span>
-            </div>
+      <div class="project-card">
+        <h3>🐳 Containerized E-commerce Platform with Monitoring</h3>
+        <p>
+          <strong>Challenge:</strong> Multi-tier application needed scalable
+          deployment with observability.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Built Docker Compose orchestration for Node.js backend, PostgreSQL
+            database, and Nginx reverse proxy
+          </li>
+          <li>
+            Implemented Prometheus metrics collection and Grafana dashboards for
+            real-time monitoring
+          </li>
+          <li>
+            Configured persistent volumes for data durability and network
+            isolation
+          </li>
+          <li>Set up health checks and automatic container restart policies</li>
+        </ul>
+        <p>
+          <strong>Results:</strong> Repeatable deployments, 24/7 system
+          visibility, 99.5% uptime
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">Docker Compose</span>
+          <span class="tech-tag">Prometheus</span>
+          <span class="tech-tag">Grafana</span>
+          <span class="tech-tag">Nginx</span>
         </div>
-
-        <div class="project-card">
-            <h3>☁️ AWS Infrastructure as Code with Terraform</h3>
-            <p><strong>Challenge:</strong> Manual AWS infrastructure creation was error-prone and not reproducible.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Wrote Terraform configurations for VPC, EC2, RDS, S3, and IAM resources</li>
-                <li>Implemented modular infrastructure code for reusability across environments</li>
-                <li>Used Terraform variables and outputs for environment-specific deployments</li>
-                <li>Integrated with CI/CD pipeline for automated infrastructure provisioning</li>
-                <li>Implemented state management with remote backend for team collaboration</li>
-            </ul>
-            <p><strong>Results:</strong> Reproducible infrastructure, 50% faster provisioning, version-controlled deployments</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Terraform</span>
-                <span class="tech-tag">AWS</span>
-                <span class="tech-tag">VPC</span>
-                <span class="tech-tag">RDS</span>
-                <span class="tech-tag">S3</span>
-            </div>
+        <div class="project-links">
+          <a href="https://github.com/Maged-Naim/" target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
         </div>
+      </div>
 
-        <div class="project-card">
-            <h3>📊 Monitoring & Observability Stack Setup</h3>
-            <p><strong>Challenge:</strong> No centralized monitoring or visibility into application and infrastructure metrics.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Deployed Prometheus for metrics collection across all services</li>
-                <li>Built custom Grafana dashboards for application, infrastructure, and business metrics</li>
-                <li>Configured AlertManager for proactive incident notification</li>
-                <li>Implemented log aggregation with ELK Stack</li>
-                <li>Set up automated alerts for anomalies and threshold violations</li>
-            </ul>
-            <p><strong>Results:</strong> Reduced incident detection time by 70%, improved system reliability, better visibility</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Prometheus</span>
-                <span class="tech-tag">Grafana</span>
-                <span class="tech-tag">AlertManager</span>
-                <span class="tech-tag">ELK Stack</span>
-            </div>
+      <div class="project-card">
+        <h3>☸️ Kubernetes Microservices Deployment & Scaling</h3>
+        <p>
+          <strong>Challenge:</strong> Need to manage multiple microservices with
+          automatic scaling and service discovery.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Deployed microservices on Kubernetes cluster with multiple replicas
+            and pod auto-scaling
+          </li>
+          <li>
+            Configured Ingress Controller for external traffic routing and SSL
+            termination
+          </li>
+          <li>
+            Used ConfigMaps and Secrets for environment-specific configuration
+            management
+          </li>
+          <li>
+            Implemented Horizontal Pod Autoscaler (HPA) for dynamic resource
+            scaling based on CPU usage
+          </li>
+          <li>
+            Set up liveness and readiness probes for application health
+            management
+          </li>
+        </ul>
+        <p>
+          <strong>Results:</strong> Automatic scaling based on demand, improved
+          resource utilization, service resilience
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Kubernetes</span>
+          <span class="tech-tag">Docker</span>
+          <span class="tech-tag">Ingress Controller</span>
+          <span class="tech-tag">HPA</span>
         </div>
-
-        <div class="project-card">
-            <h3>🚀 GitOps Workflow with GitHub Actions & AWS ECS</h3>
-            <p><strong>Challenge:</strong> Deploy applications with consistency and traceability across multiple environments.</p>
-            <p><strong>Solution:</strong></p>
-            <ul>
-                <li>Built GitHub Actions workflows for automated testing, building, and pushing images to AWS ECR</li>
-                <li>Implemented blue-green deployment strategy for zero-downtime releases</li>
-                <li>Configured automatic deployments to AWS ECS on Git push to main branch</li>
-                <li>Added manual approval gates for production deployments</li>
-                <li>Integrated security scanning and vulnerability checks in pipeline</li>
-            </ul>
-            <p><strong>Results:</strong> Automated deployments, reduced manual errors, complete deployment traceability</p>
-            <div class="tech-stack">
-                <span class="tech-tag">GitHub Actions</span>
-                <span class="tech-tag">AWS ECR</span>
-                <span class="tech-tag">AWS ECS</span>
-                <span class="tech-tag">Blue-Green Deployment</span>
-            </div>
+        <div class="project-links">
+          <a href="https://github.com/Maged-Naim/" target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
         </div>
+      </div>
 
-        <h3 class="project-section-title">NetSuite Implementation Experience</h3>
-
-        <div class="project-card">
-            <h3>🏢 Digital Trends – NetSuite Partner</h3>
-            <p>Developed custom NetSuite solutions for 20+ clients across various industries including e-commerce, manufacturing, and logistics.</p>
-            <ul>
-                <li>Built SuiteScript 2.0 customizations for order management and inventory automation</li>
-                <li>Designed and implemented REST/SOAP API integrations with third-party platforms</li>
-                <li>Created advanced PDF templates for invoices, purchase orders, and financial reports</li>
-                <li>Optimized saved searches and custom dashboards for executive reporting</li>
-                <li>Mentored junior developers on NetSuite best practices</li>
-            </ul>
-            <p><strong>Key Clients:</strong> 3DDX, Bin Ham, Foam, Marsool, SMS, Systel, Twareat, Unistar, MCS, ENG-Consultancy, International Traders, Fish Basket, and more.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">SuiteScript 2.0</span>
-                <span class="tech-tag">SuiteTalk API</span>
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">REST/SOAP</span>
-            </div>
+      <div class="project-card">
+        <h3>☁️ AWS Infrastructure as Code with Terraform</h3>
+        <p>
+          <strong>Challenge:</strong> Manual AWS infrastructure creation was
+          error-prone and not reproducible.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Wrote Terraform configurations for VPC, EC2, RDS, S3, and IAM
+            resources
+          </li>
+          <li>
+            Implemented modular infrastructure code for reusability across
+            environments
+          </li>
+          <li>
+            Used Terraform variables and outputs for environment-specific
+            deployments
+          </li>
+          <li>
+            Integrated with CI/CD pipeline for automated infrastructure
+            provisioning
+          </li>
+          <li>
+            Implemented state management with remote backend for team
+            collaboration
+          </li>
+        </ul>
+        <p>
+          <strong>Results:</strong> Reproducible infrastructure, 50% faster
+          provisioning, version-controlled deployments
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Terraform</span>
+          <span class="tech-tag">AWS</span>
+          <span class="tech-tag">VPC</span>
+          <span class="tech-tag">RDS</span>
+          <span class="tech-tag">S3</span>
         </div>
-
-        <div class="project-card">
-            <h3>🏗️ Advanced Techniques – NetSuite Partner</h3>
-            <p>Led technical implementation and customization efforts for enterprise clients in construction, real estate, and food services.</p>
-            <ul>
-                <li>Architected end-to-end NetSuite solutions for financial operations</li>
-                <li>Developed automated workflows using SuiteFlow and SuiteBuilder</li>
-                <li>Integrated NetSuite with POS systems and e-commerce platforms</li>
-                <li>Provided technical support and knowledge transfer to client teams</li>
-            </ul>
-            <p><strong>Key Clients:</strong> Coastline Integration, AFAC, Aldmagh, ALKHALEEJ, Foodics, GBC, Jaddaf, Maskan, Wardat El Mashraq</p>
-            <div class="tech-stack">
-                <span class="tech-tag">NetSuite</span>
-                <span class="tech-tag">SuiteScript</span>
-                <span class="tech-tag">Integration</span>
-                <span class="tech-tag">APIs</span>
-            </div>
+        <div class="project-links">
+          <a href="https://github.com/Maged-Naim/" target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
         </div>
+      </div>
 
-        <div class="project-card">
-            <h3>💄 SAFI Cosmetics – Kuwait</h3>
-            <p><strong>Role:</strong> Lead NetSuite Developer</p>
-            <p><strong>Responsibilities:</strong></p>
-            <ul>
-                <li>Single point of contact for all NetSuite customizations and technical support</li>
-                <li>Designed and implemented POS system integration with NetSuite for real-time inventory sync</li>
-                <li>Built custom website-to-NetSuite connector for order automation and customer data synchronization</li>
-                <li>Created automated workflows for order processing, fulfillment, and financial reporting</li>
-                <li>Ensured data accuracy and system reliability with 99.9% uptime</li>
-            </ul>
-            <p><strong>Impact:</strong> Streamlined operations, eliminated manual data entry, improved inventory accuracy to 99.8%</p>
-            <div class="tech-stack">
-                <span class="tech-tag">NetSuite</span>
-                <span class="tech-tag">POS Integration</span>
-                <span class="tech-tag">APIs</span>
-                <span class="tech-tag">MySQL</span>
-            </div>
+      <div class="project-card">
+        <h3>📊 Monitoring & Observability Stack Setup</h3>
+        <p>
+          <strong>Challenge:</strong> No centralized monitoring or visibility
+          into application and infrastructure metrics.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Deployed Prometheus for metrics collection across all services
+          </li>
+          <li>
+            Built custom Grafana dashboards for application, infrastructure, and
+            business metrics
+          </li>
+          <li>Configured AlertManager for proactive incident notification</li>
+          <li>Implemented log aggregation with ELK Stack</li>
+          <li>
+            Set up automated alerts for anomalies and threshold violations
+          </li>
+        </ul>
+        <p>
+          <strong>Results:</strong> Reduced incident detection time by 70%,
+          improved system reliability, better visibility
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Prometheus</span>
+          <span class="tech-tag">Grafana</span>
+          <span class="tech-tag">AlertManager</span>
+          <span class="tech-tag">ELK Stack</span>
         </div>
+        <div class="project-links">
+          <a href="https://github.com/Maged-Naim/" target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>🚀 GitOps Workflow with GitHub Actions & AWS ECS</h3>
+        <p>
+          <strong>Challenge:</strong> Deploy applications with consistency and
+          traceability across multiple environments.
+        </p>
+        <p><strong>Solution:</strong></p>
+        <ul>
+          <li>
+            Built GitHub Actions workflows for automated testing, building, and
+            pushing images to AWS ECR
+          </li>
+          <li>
+            Implemented blue-green deployment strategy for zero-downtime
+            releases
+          </li>
+          <li>
+            Configured automatic deployments to AWS ECS on Git push to main
+            branch
+          </li>
+          <li>Added manual approval gates for production deployments</li>
+          <li>
+            Integrated security scanning and vulnerability checks in pipeline
+          </li>
+        </ul>
+        <p>
+          <strong>Results:</strong> Automated deployments, reduced manual
+          errors, complete deployment traceability
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">GitHub Actions</span>
+          <span class="tech-tag">AWS ECR</span>
+          <span class="tech-tag">AWS ECS</span>
+          <span class="tech-tag">Blue-Green Deployment</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Maged-Naim/" target="_blank"
+            ><i class="fab fa-github"></i> View Code</a
+          >
+        </div>
+      </div>
+
+      <h3 class="project-section-title">NetSuite Implementation Experience</h3>
+
+      <div class="project-card">
+        <h3>🏢 Digital Trends – NetSuite Partner</h3>
+        <p>
+          Developed custom NetSuite solutions for 20+ clients across various
+          industries including e-commerce, manufacturing, and logistics.
+        </p>
+        <ul>
+          <li>
+            Built SuiteScript 2.0 customizations for order management and
+            inventory automation
+          </li>
+          <li>
+            Designed and implemented REST/SOAP API integrations with third-party
+            platforms
+          </li>
+          <li>
+            Created advanced PDF templates for invoices, purchase orders, and
+            financial reports
+          </li>
+          <li>
+            Optimized saved searches and custom dashboards for executive
+            reporting
+          </li>
+          <li>Mentored junior developers on NetSuite best practices</li>
+        </ul>
+        <p>
+          <strong>Key Clients:</strong> 3DDX, Bin Ham, Foam, Marsool, SMS,
+          Systel, Twareat, Unistar, MCS, ENG-Consultancy, International Traders,
+          Fish Basket, and more.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">SuiteScript 2.0</span>
+          <span class="tech-tag">SuiteTalk API</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">REST/SOAP</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>🏗️ Advanced Techniques – NetSuite Partner</h3>
+        <p>
+          Led technical implementation and customization efforts for enterprise
+          clients in construction, real estate, and food services.
+        </p>
+        <ul>
+          <li>
+            Architected end-to-end NetSuite solutions for financial operations
+          </li>
+          <li>
+            Developed automated workflows using SuiteFlow and SuiteBuilder
+          </li>
+          <li>Integrated NetSuite with POS systems and e-commerce platforms</li>
+          <li>
+            Provided technical support and knowledge transfer to client teams
+          </li>
+        </ul>
+        <p>
+          <strong>Key Clients:</strong> Coastline Integration, AFAC, Aldmagh,
+          ALKHALEEJ, Foodics, GBC, Jaddaf, Maskan, Wardat El Mashraq
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">NetSuite</span>
+          <span class="tech-tag">SuiteScript</span>
+          <span class="tech-tag">Integration</span>
+          <span class="tech-tag">APIs</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>💄 SAFI Cosmetics – Kuwait</h3>
+        <p><strong>Role:</strong> Lead NetSuite Developer</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>
+            Single point of contact for all NetSuite customizations and
+            technical support
+          </li>
+          <li>
+            Designed and implemented POS system integration with NetSuite for
+            real-time inventory sync
+          </li>
+          <li>
+            Built custom website-to-NetSuite connector for order automation and
+            customer data synchronization
+          </li>
+          <li>
+            Created automated workflows for order processing, fulfillment, and
+            financial reporting
+          </li>
+          <li>
+            Ensured data accuracy and system reliability with 99.9% uptime
+          </li>
+        </ul>
+        <p>
+          <strong>Impact:</strong> Streamlined operations, eliminated manual
+          data entry, improved inventory accuracy to 99.8%
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">NetSuite</span>
+          <span class="tech-tag">POS Integration</span>
+          <span class="tech-tag">APIs</span>
+          <span class="tech-tag">MySQL</span>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <h1>Let's Connect</h1>
-        <p>I'm open to discussing DevOps roles, infrastructure projects, and collaboration opportunities. Feel free to reach out!</p>
+      <h1>Let's Connect</h1>
+      <p>
+        I'm open to discussing DevOps roles, infrastructure projects, and
+        collaboration opportunities. Feel free to reach out!
+      </p>
 
-        <form id="contact-form">
-            <div class="form-group">
-                <label for="name">Name <span style="color: #ff6b6b;">*</span></label>
-                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email <span style="color: #ff6b6b;">*</span></label>
-                <input type="email" id="email" name="email" placeholder="Enter your email address" required />
-            </div>
-
-            <div class="form-group">
-                <label for="subject">Subject <span style="color: #ff6b6b;">*</span></label>
-                <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
-            </div>
-
-            <div class="form-group">
-                <label for="message">Message <span style="color: #ff6b6b;">*</span></label>
-                <textarea id="message" name="message" placeholder="Tell me more about your inquiry..." required></textarea>
-            </div>
-
-            <button type="submit" id="contact-btn">Send Message</button>
-        </form>
-
-        <div class="social">
-            <a href="https://github.com/Maged-Naim" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/maged-naim-247220122/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name <span style="color: #ff6b6b">*</span></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+          />
         </div>
+
+        <div class="form-group">
+          <label for="email">Email <span style="color: #ff6b6b">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="subject"
+            >Subject <span style="color: #ff6b6b">*</span></label
+          >
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="What is this about?"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message"
+            >Message <span style="color: #ff6b6b">*</span></label
+          >
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Tell me more about your inquiry..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" id="contact-btn">Send Message</button>
+      </form>
+
+      <div class="social">
+        <a href="https://github.com/Maged-Naim" target="_blank" title="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/maged-naim-247220122/"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; <span id="year"></span> Maged Naim. All Rights Reserved.</p>
+      <p>&copy; <span id="year"></span> Maged Naim. All Rights Reserved.</p>
     </footer>
 
-<script src="app.js" defer></script>
-</body>
+    <script src="app.js" defer></script>
+  </body>
 </html>

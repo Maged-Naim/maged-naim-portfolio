@@ -633,6 +633,31 @@ body.light-mode .tech-tag {
   font-weight: bold;
 }
 
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #00bfff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 1px solid #00bfff;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.project-links a:hover {
+  background: rgba(0, 191, 255, 0.1);
+  transform: translateX(3px);
+}
+
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
